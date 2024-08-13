@@ -5,8 +5,13 @@ setup(
     version='0.1',
     packages=find_packages(),
     description='A simple calculator Python package',
-    author='Your Name',
+    author='Yi-Yang Lin',
     author_email='yiyanglin0102@gmail.com',
-    url='https://github.com/yiyanglin0102/simple_calculator',
-    install_requires=[],
+    license='MIT',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
